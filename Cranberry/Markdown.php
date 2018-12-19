@@ -1987,5 +1987,3 @@ class Markdown
                    'wbr', 'time',
     );
 }
-
-?>

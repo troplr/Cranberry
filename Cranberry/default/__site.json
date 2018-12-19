@@ -3,7 +3,7 @@
 	"description": "A new website.",
 
 	"theme": "default",
-	"keepMarkdown": false,
+	"keepMarkdown": true,
 
 	"outputDirectory": "__out"
 }

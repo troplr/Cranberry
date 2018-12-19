@@ -66,7 +66,8 @@ class CLIArgs {
 				file_put_contents('__site.json', \PHPCanner::get_file('default/__site.json')) &&
 				file_put_contents('__cb' . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'themes' . DIRECTORY_SEPARATOR . 'default.css', \PHPCanner::get_file('default/__cb/assets/themes/default.css')) &&
 				file_put_contents('__cb' . DIRECTORY_SEPARATOR . 'layouts' . DIRECTORY_SEPARATOR . 'default.html', \PHPCanner::get_file('default/__cb/layouts/default.html')) &&
-				file_put_contents('__cb' . DIRECTORY_SEPARATOR . 'scripts' . DIRECTORY_SEPARATOR . 'cb.js', \PHPCanner::get_file('default/__cb/scripts/cb.js'))) {
+				file_put_contents('__cb' . DIRECTORY_SEPARATOR . 'scripts' . DIRECTORY_SEPARATOR . 'cb.js', \PHPCanner::get_file('default/__cb/scripts/cb.js')) &&
+				file_put_contents('index.md', \PHPCanner::get_file('default/index.md'))) {
 
 				/* ====
 				 * THEN
