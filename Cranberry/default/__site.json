@@ -1,0 +1,9 @@
+{
+	"name": "Website",
+	"description": "A new website.",
+
+	"theme": "default",
+	"keepMarkdown": false,
+
+	"outputDirectory": "__out"
+}

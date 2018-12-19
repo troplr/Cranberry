@@ -1,0 +1,4 @@
+# PHPCanner build directory
+build/
+
+.idea/

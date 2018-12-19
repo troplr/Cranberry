@@ -1,0 +1,12 @@
+{
+	"name": "Cranberry",
+	"description": "A static website generator written in PHP.",
+	"version": "1.0-indev",
+	"license": "MIT License, 2018. See included LICENSE file in project root.",
+	"contributors": ["https://github.com/itsmaxymoo"],
+
+	"sourceDirectory": "Cranberry",
+	"entryFunction": "CB\\Program::Main",
+	"outputDirectory": "build",
+	"outputFile": "cb"
+}
