@@ -1,3 +1,4 @@
 # TODO
 
+* STRUCTURE PLAN
 * Everything
