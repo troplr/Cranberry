@@ -1,0 +1,14 @@
+{
+	"name": "Website",
+	"description": "A new website.",
+
+	"theme": "default",
+	"keepMarkdown": true,
+
+	"siteDirectory": "site",
+	"contentDirectory": "content",
+	"blogPostDirectory": "content/posts",
+
+	"outputDirectory": "out",
+	"specialDirectory": "__cb"
+}
