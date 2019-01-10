@@ -2,7 +2,7 @@
 
 namespace CB\Website\DynamicContent;
 
-class DynamicObject{
+abstract class DynamicObject{
 	protected const tagOpen = '{{';
 	protected const tagClose = '}}';
 	private $tagName;
@@ -19,4 +19,6 @@ class DynamicObject{
 			throw new \Exception('CB: DynamicObject constructor must have a tag name!');
 		}
 	}
+
+	public abstract function Filter($text);
 }

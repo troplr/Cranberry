@@ -1,4 +1,4 @@
 # TODO
 
-* Fix dyn var escaping - remove single /
+* Think of program structure very carefully
 * Everything

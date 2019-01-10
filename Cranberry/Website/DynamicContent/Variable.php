@@ -18,6 +18,11 @@ class Variable extends DynamicObject {
 	}
 
 	public function Filter($text){
-		return preg_replace('/(?<!\\\)(' . self::tagOpen . preg_quote($this->getTagName()) . self::tagClose .')/', $this->action->__invoke(), $text);
+		$fqn = self::tagOpen . preg_quote($this->getTagName()) . self::tagClose;
+
+		$text = preg_replace('/(?<!\\\)(' . $fqn .')/', $this->action->__invoke(), $text);
+		$text = preg_replace('/(?<!\\\)(\\\){1}(' . $fqn . ')/', $fqn, $text);
+
+		return $text;
 	}
 }
